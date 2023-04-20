@@ -7,3 +7,66 @@
 :root {
   font-size: 62.5%;
 }
+
+body {
+  display: grid;
+  grid-template-rows: 6.8rem 1fr;
+  grid-template-areas:
+    "header"
+    "main";
+  height: 100vh;
+}
+
+.c-header {
+  grid-area: header;
+  background: #191816;
+  padding: 4rem 0 0 2rem;
+}
+
+.c-main {
+  grid-area: main;
+  background: #191816;
+  padding: 3rem 0 0 2rem;
+}
+
+.c-main__title {
+  display: flex;
+  gap: 1rem;
+  color: #d4ccb6;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+
+.c-main__info {
+  color: #afb6c2;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.u-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.u-poppins--regular {
+  font-weight: 400;
+}
+
+.u-poppins--medium {
+  font-weight: 500;
+}
+
+.u-poppins--semiBold {
+  font-weight: 600;
+}
+
+.u-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.u-roboto--regular {
+  font-weight: 400;
+}
+
+.u-roboto--medium {
+  font-weight: 500;
+}
