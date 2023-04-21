@@ -26,7 +26,7 @@ body {
 .c-main {
   grid-area: main;
   background: #191816;
-  padding: 3rem 0 0 2rem;
+  padding: 3rem 2rem 0;
 }
 
 .c-main__title {
@@ -41,6 +41,46 @@ body {
   color: #afb6c2;
   font-size: 1.6rem;
   line-height: 2.4rem;
+}
+
+.c-main__label {
+  color: #afb6c2;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.c-main__form {
+  margin-top: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 33.5rem;
+}
+
+.c-main__input-container {
+  padding: 0 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  border: 1px solid #868686;
+  border-radius: 4px;
+}
+
+.c-main__input {
+  padding: 1.2rem 0;
+  background: transparent;
+  color: #a9afb9;
+
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.c-main__input::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #a9afb9;
+  font-weight: 400;
 }
 
 .u-poppins {
