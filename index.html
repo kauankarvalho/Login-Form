@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script src="./script.js" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,24 +38,30 @@
         <form class="c-main__form" action="">
           <section>
             <label for="email" class="c-main__label u-poppins u-poppins--medium">E-mail</label>
-            <div id="input-container-email" class="c-main__input-container">
-              <img src="./assets/email.svg" alt="Icone de e-mail" />
-              <input id="email" name="email" class="c-main__input" type="email" placeholder="Digite seu e-mail" />
+            <div id="input-container-email" class="c-main__input-container js-container-email">
+              <img class="js-email-icon" src="./assets/email.svg" alt="Icone de e-mail" />
+              <input
+                id="email"
+                name="email"
+                class="c-main__input u-roboto u-roboto--regular js-email-input"
+                type="email"
+                placeholder="Digite seu e-mail"
+              />
             </div>
           </section>
 
           <section>
             <label for="password" class="c-main__label u-poppins u-poppins--medium">Senha</label>
-            <div id="input-container-password" class="c-main__input-container">
-              <img src="./assets/lock.svg" alt="Icone de senha" />
+            <div id="input-container-password" class="c-main__input-container js-container-password">
+              <img class="js-lock-icon" src="./assets/lock.svg" alt="Icone de senha" />
               <input
                 id="password"
                 name="password"
-                class="c-main__input u-roboto u-roboto--regular"
+                class="c-main__input u-roboto u-roboto--regular js-password-input"
                 type="password"
                 placeholder="Digite sua senha"
               />
-              <img src="./assets/eye.svg" alt="Iconde de olho" />
+              <img class="js-eye-icon" src="./assets/eye.svg" alt="Iconde de olho" />
             </div>
           </section>
 

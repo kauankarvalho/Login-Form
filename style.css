@@ -71,6 +71,8 @@ body {
   padding: 1.2rem 0;
   background: transparent;
   color: #a9afb9;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
 
   border: none;
   outline: none;
@@ -80,6 +82,8 @@ body {
 .c-main__input::placeholder {
   font-family: "Roboto", sans-serif;
   color: #a9afb9;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
   font-weight: 400;
 }
 
@@ -109,4 +113,9 @@ body {
 
 .u-roboto--medium {
   font-weight: 500;
+}
+
+.is-input-focus {
+  outline: 2px solid #ffde88;
+  border: 1px solid #ffc632;
 }
