@@ -26,7 +26,9 @@ body {
 .c-main {
   grid-area: main;
   background: #191816;
-  padding: 3rem 2rem 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
 }
 
 .c-main__title {
@@ -118,6 +120,34 @@ body {
   color: #ffc632;
   font-size: 1.4rem;
   line-height: 2.1rem;
+  text-decoration: none;
+}
+
+.c-main__button {
+  margin-bottom: 2rem;
+  padding: 1.2rem 2.4rem;
+  background: #ffc632;
+  width: 100%;
+
+  border: none;
+  border-radius: 0.4rem;
+
+  color: #473404;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-transform: uppercase;
+}
+
+.c-main__create-account {
+  display: block;
+  color: #ffc632;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  text-align: center;
+}
+
+.c-main__register {
+  color: #ffc632;
   text-decoration: none;
 }
 
