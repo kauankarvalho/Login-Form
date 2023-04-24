@@ -81,10 +81,44 @@ body {
 
 .c-main__input::placeholder {
   font-family: "Roboto", sans-serif;
-  color: #a9afb9;
+  color: rgb(169, 175, 185, 0.5);
   font-size: 1.4rem;
   line-height: 1.6rem;
   font-weight: 400;
+}
+
+.c-main__remember-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-main__checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: max-content;
+}
+
+.c-main__checkbox {
+  appearance: none;
+  border: 1px solid #868686;
+  border-radius: 4px;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.c-main__checkbox:checked {
+  background: url(./assets/check.svg) #ffc632;
+  border: none;
+}
+
+.c-main__forgot-password {
+  color: #ffc632;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  text-decoration: none;
 }
 
 .u-poppins {

@@ -46,6 +46,9 @@
                 class="c-main__input u-roboto u-roboto--regular js-email-input"
                 type="email"
                 placeholder="Digite seu e-mail"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                title="Apenas e-mails válidos serão aceitos."
+                required
               />
             </div>
           </section>
@@ -60,9 +63,19 @@
                 class="c-main__input u-roboto u-roboto--regular js-password-input"
                 type="password"
                 placeholder="Digite sua senha"
+                required
               />
               <img class="js-eye-icon" src="./assets/eye.svg" alt="Iconde de olho" />
             </div>
+          </section>
+
+          <section class="c-main__remember-password">
+            <div id="checkbox-container" class="c-main__checkbox-container">
+              <input class="c-main__checkbox" id="checkbox" name="checkbox" type="checkbox" />
+              <label for="checkbox" class="c-main__label u-roboto u-roboto--regular">Lembre-me</label>
+            </div>
+
+            <a href="#" class="c-main__forgot-password u-poppins u-poppins--semiBold">Esqueci minha senha</a>
           </section>
 
         </form>
