@@ -31,6 +31,10 @@ body {
   padding-top: 3rem;
 }
 
+.c-main__fieldset {
+  border: none;
+}
+
 .c-main__title {
   display: flex;
   gap: 1rem;
@@ -45,18 +49,18 @@ body {
   line-height: 2.4rem;
 }
 
-.c-main__label {
-  color: #afb6c2;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-}
-
 .c-main__form {
   margin-top: 2.7rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 33.5rem;
+}
+
+.c-main__label {
+  color: #afb6c2;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 .c-main__input-container {
@@ -124,7 +128,6 @@ body {
 }
 
 .c-main__button {
-  margin-bottom: 2rem;
   padding: 1.2rem 2.4rem;
   background: #ffc632;
   width: 100%;
@@ -139,6 +142,7 @@ body {
 }
 
 .c-main__create-account {
+  margin-top: 2rem;
   display: block;
   color: #ffc632;
   font-size: 1.4rem;

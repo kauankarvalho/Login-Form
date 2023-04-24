@@ -27,66 +27,69 @@
 
     <main class="c-main">
       <section>
-        <section>
-          <h1 class="c-main__title u-poppins u-poppins--semiBold">
-            <img src="./assets/log-in.svg" alt="Icone de log-in" />
-            Faça seu login
-          </h1>
+        <fieldset class="c-main__fieldset">
+          <legend>
+            <h1 class="c-main__title u-poppins u-poppins--semiBold">
+              <img src="./assets/log-in.svg" alt="Icone de log-in" />
+              Faça seu login
+            </h1>
+          </legend>
+
           <p class="c-main__info u-roboto u-roboto--medium">Entre com suas informações de cadastro.</p>
-        </section>
 
-        <form class="c-main__form" action="">
-          <section>
-            <label for="email" class="c-main__label u-poppins u-poppins--medium">E-mail</label>
-            <div id="input-container-email" class="c-main__input-container js-container-email">
-              <img class="js-email-icon" src="./assets/email.svg" alt="Icone de e-mail" />
-              <input
-                id="email"
-                name="email"
-                class="c-main__input u-roboto u-roboto--regular js-email-input"
-                type="email"
-                placeholder="Digite seu e-mail"
-                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-                title="Apenas e-mails válidos serão aceitos."
-                required
-              />
-            </div>
-          </section>
+          <form class="c-main__form" action="">
+            <section>
+              <label for="email" class="c-main__label u-poppins u-poppins--medium">E-mail</label>
+              <div id="input-container-email" class="c-main__input-container js-container-email">
+                <img class="js-email-icon" src="./assets/email.svg" alt="Icone de e-mail" />
+                <input
+                  id="email"
+                  name="email"
+                  class="c-main__input u-roboto u-roboto--regular js-email-input"
+                  type="email"
+                  placeholder="Digite seu e-mail"
+                  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                  title="Apenas e-mails válidos serão aceitos."
+                  required
+                />
+              </div>
+            </section>
 
-          <section>
-            <label for="password" class="c-main__label u-poppins u-poppins--medium">Senha</label>
-            <div id="input-container-password" class="c-main__input-container js-container-password">
-              <img class="js-lock-icon" src="./assets/lock.svg" alt="Icone de senha" />
-              <input
-                id="password"
-                name="password"
-                class="c-main__input u-roboto u-roboto--regular js-password-input"
-                type="password"
-                placeholder="Digite sua senha"
-                required
-              />
-              <img class="js-eye-icon" src="./assets/eye.svg" alt="Iconde de olho" />
-            </div>
-          </section>
+            <section>
+              <label for="password" class="c-main__label u-poppins u-poppins--medium">Senha</label>
+              <div id="input-container-password" class="c-main__input-container js-container-password">
+                <img class="js-lock-icon" src="./assets/lock.svg" alt="Icone de senha" />
+                <input
+                  id="password"
+                  name="password"
+                  class="c-main__input u-roboto u-roboto--regular js-password-input"
+                  type="password"
+                  placeholder="Digite sua senha"
+                  required
+                />
+                <img class="js-eye-icon" src="./assets/eye.svg" alt="Iconde de olho" />
+              </div>
+            </section>
 
-          <section class="c-main__remember-password">
-            <div id="checkbox-container" class="c-main__checkbox-container">
-              <input class="c-main__checkbox" id="checkbox" name="checkbox" type="checkbox" />
-              <label for="checkbox" class="c-main__label u-roboto u-roboto--regular">Lembre-me</label>
-            </div>
+            <section class="c-main__remember-password">
+              <div id="checkbox-container" class="c-main__checkbox-container">
+                <input class="c-main__checkbox" id="checkbox" name="checkbox" type="checkbox" />
+                <label for="checkbox" class="c-main__label u-roboto u-roboto--regular">Lembre-me</label>
+              </div>
 
-            <a href="#" class="c-main__forgot-password u-poppins u-poppins--semiBold">Esqueci minha senha</a>
-          </section>
+              <a href="#" class="c-main__forgot-password u-poppins u-poppins--semiBold">Esqueci minha senha</a>
+            </section>
 
-          <button class="c-main__button u-poppins u-poppins--semiBold" type="submit">entrar</button>
-        </form>
+            <button class="c-main__button u-poppins u-poppins--semiBold" type="submit">entrar</button>
+          </form>
+        </fieldset>
 
         <span class="c-main__create-account u-poppins u-poppins--regular">
-          Não tem uma conta? 
+          Não tem uma conta?
           <a href="#" class="c-main__register u-poppins--semiBold">Registre-se</a>
         </span>
       </section>
-
+      
     </main>
   </body>
 </html>
