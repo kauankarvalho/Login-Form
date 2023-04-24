@@ -28,11 +28,13 @@ body {
   background: #191816;
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  padding: 3rem 2rem 0;
 }
 
 .c-main__fieldset {
   border: none;
+  width: 100%;
+  max-width: 33.5rem;
 }
 
 .c-main__title {
@@ -47,6 +49,7 @@ body {
   color: #afb6c2;
   font-size: 1.6rem;
   line-height: 2.4rem;
+  text-align: justify;
 }
 
 .c-main__form {
@@ -54,7 +57,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 33.5rem;
+  width: 100%;
 }
 
 .c-main__label {
@@ -186,4 +189,41 @@ body {
 .is-input-focus {
   outline: 2px solid #ffde88;
   border: 1px solid #ffc632;
+}
+
+@media (min-width: 750px) {
+  .c-header {
+    padding-left: 4rem;
+  }
+
+  .c-main {
+    padding: 0;
+    align-items: center;
+  }
+
+  .c-main__container {
+    background: #24221f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+
+    width: 57.2rem;
+    height: 51.2rem;
+  }
+}
+
+@media (min-width: 1150px) {
+  body {
+    grid-template-columns: 70.2rem 1fr;
+    grid-template-areas:
+      "header aside"
+      "main aside";
+  }
+
+  .c-aside {
+    background: url(./assets/bg-aside.png) no-repeat center/cover;
+    height: 100vh;
+  }
 }
