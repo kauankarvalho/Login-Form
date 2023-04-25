@@ -128,6 +128,13 @@ body {
   font-size: 1.4rem;
   line-height: 2.1rem;
   text-decoration: none;
+
+  transition: all 0.2s;
+}
+
+.c-main__forgot-password:hover {
+  color: rgb(255, 198, 50, 0.8);
+  text-decoration: underline;
 }
 
 .c-main__button {
@@ -142,6 +149,13 @@ body {
   font-size: 1.8rem;
   line-height: 2.7rem;
   text-transform: uppercase;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.c-main__button:hover {
+  background: rgb(255, 198, 50, 0.8);
 }
 
 .c-main__create-account {
@@ -156,6 +170,13 @@ body {
 .c-main__register {
   color: #ffc632;
   text-decoration: none;
+
+  transition: all 0.2s;
+}
+
+.c-main__register:hover {
+  color: rgb(255, 198, 50, 0.8);
+  text-decoration: underline;
 }
 
 .u-poppins {
