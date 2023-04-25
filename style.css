@@ -191,6 +191,10 @@ body {
   border: 1px solid #ffc632;
 }
 
+.is-pointer {
+  cursor: pointer;
+}
+
 @media (min-width: 750px) {
   .c-header {
     padding-left: 4rem;
