@@ -31,6 +31,11 @@ body {
   padding: 3rem 2rem 0;
 }
 
+.c-main__container {
+  width: 100%;
+  max-width: 33.5rem;
+}
+
 .c-main__fieldset {
   border: none;
   width: 100%;
@@ -49,7 +54,7 @@ body {
   color: #afb6c2;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  text-align: justify;
+  text-align: left;
 }
 
 .c-main__form {
@@ -235,6 +240,7 @@ body {
     border-radius: 0.4rem;
 
     width: 57.2rem;
+    max-width: none;
     height: 51.2rem;
   }
 }
