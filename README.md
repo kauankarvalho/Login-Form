@@ -39,7 +39,7 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 O desafio Login Form do Discover da Rocketseat tem como objetivo criar um formulário de login responsivo utilizando HTML, CSS e
 JavaScript. O projeto consiste em desenvolver uma interface de usuário limpa e intuitiva que permita ao usuário inserir seu e-mail de usuário e senha para acessar uma aplicação. O desafio requer que o formulário de login tenha uma aparência agradável e moderna, com uso de elementos visuais apropriados para atrair e engajar o usuário.
 
-## 💡 Tecnologias
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
